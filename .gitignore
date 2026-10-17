@@ -1,0 +1,16 @@
+# SwiftPM
+.build/
+.swiftpm/
+
+# 构建产物（make-app.sh / make-icon.swift 生成）
+build/
+
+# Xcode（如有人用 Xcode 打开 Package.swift）
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# 系统 / 编辑器
+.DS_Store
+*~
+.zcodeignore
